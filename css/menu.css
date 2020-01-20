@@ -31,7 +31,7 @@ header {
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 20px;
+  right: 30px;
   top: 20px;
   cursor: pointer;
   transition: all 0.5s ease-out; }
