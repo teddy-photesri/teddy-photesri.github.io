@@ -168,6 +168,17 @@ font-size: 40px;
   	margin-top: 0px;
   }
 }
+footer{
+  padding-top: 3em;
+  padding-bottom: 3em;
+  text-align: center;
+  color: #212529;
+  bottom: 0;
+  width: 100%;
+  z-index: 9;
+
+}
+
 
 @media (min-width: 768px) {
   .container {
