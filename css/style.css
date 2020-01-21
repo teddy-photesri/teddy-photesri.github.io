@@ -163,6 +163,10 @@ font-size: 40px;
   padding: 1em;
 }
 
+.quote{
+    font-family: 'Dancing Script', cursive;
+  }
+
 footer{
   margin-top: 3em;
   padding-top: 3em;
@@ -191,7 +195,7 @@ footer{
   .sub-headline{
   	font-size: 16px;
   	letter-spacing: 5px;
-  	margin-top: 0px;
+  	margin-top: -15px;
   }
 }
 
