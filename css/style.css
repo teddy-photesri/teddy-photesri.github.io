@@ -31,6 +31,18 @@ body {
 	padding: 0;
 	color: #212529;
 }
+
+.title h2 {
+	font-size: 3em;
+	font-weight: 300;
+	/* text-transform: uppercase; */
+	line-height: 0.85;
+	margin-bottom: 28px;
+	margin: 0;
+	padding: 0;
+	color: #212529;
+}
+
 .title p {
 	color: #212529;
 	font-size: 14px;
@@ -113,6 +125,23 @@ font-size: 40px;
   transform: translate(0, -20%);
 }
 
+.header2 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.05);
+  /* background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/62549876_2762755357074109_8933470153920741376_n.jpg?_nc_cat=106&_nc_oc=AQkq6A50ykX_w2vtaxS-42pws6UdQ7otU6_I9s2yIHpc04ILoaNaGybPwXohhNy1az8&_nc_ht=scontent-sea1-1.xx&oh=d49ee4ae7563009365a8bc2e6fc47318&oe=5ED6B9E9"); */
+}
+.header2 > .title > h2 {
+  transform: translate(0, -50%);
+}
 
 .button{
   text-align: center;
@@ -131,6 +160,10 @@ font-size: 40px;
   margin-bottom: 0;
 
 }
+
+/* .header2 > .title > a {
+  transform: translate(0, 0);
+} */
 
 .button-resume{
   text-align: center;
@@ -186,6 +219,10 @@ footer{
   .title h1 {
   	font-size: 50px;
   }
+  .title h2 {
+    font-size: 4em;
+  }
+
   .title p {
   	font-size: 16px;
   	letter-spacing: 5px;
