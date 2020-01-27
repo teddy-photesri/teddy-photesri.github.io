@@ -124,7 +124,10 @@ font-size: 40px;
 #header > .title {
   transform: translate(0, -20%);
 }
-
+#poem {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding-bottom: 6em;
+}
 .header2 {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -201,7 +204,6 @@ font-size: 40px;
   }
 
 footer{
-  margin-top: 3em;
   padding-top: 3em;
   padding-bottom: 3em;
   text-align: center;
