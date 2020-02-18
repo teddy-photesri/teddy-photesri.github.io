@@ -203,6 +203,56 @@ font-size: 40px;
     font-family: 'Dancing Script', cursive;
   }
 
+/* ----------------------- resume collapse -------------------- */
+
+
+.accordion {
+  /* background-color: rgba(0, 0, 0, 0.05); */
+  cursor: pointer;
+  /* margin-top: 2em; */
+  padding: 1em;
+  width: 100%;
+  text-align: left;
+  border: 1px solid white;
+  /* transition: all 0.5s ease-out; */
+  outline: none;
+
+
+}
+.accordion:focus{
+  outline: none;
+}
+
+.panel {
+  padding: 2em;
+  background-color: white;
+  /* border: 1px solid rgba(0, 0, 0, 0.05); */
+  display: none;
+  overflow: hidden;
+  /* transition: all 0.5s ease-out; */
+  /* transition: height 200ms; */
+
+}
+
+.active, .accordion:hover {
+  /* background-color: rgba(0, 0, 0, 0.05); */
+
+}
+.accordion:after {
+
+  content: '\02795';/* unicode charactor for + sign */
+  float: right;
+  font-size: 14px;
+}
+.active:after {
+  content: '\2796';/* unicode charactor for + sign */
+  float: right;
+  font-size: 14px;
+
+
+}
+/* ---------------------------- end --------------------------- */
+
 footer{
   padding-top: 3em;
   padding-bottom: 3em;
