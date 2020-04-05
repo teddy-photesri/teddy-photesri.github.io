@@ -84,9 +84,9 @@ nav {
     opacity: 1;
   }
   .nav-links li a {
-    line-height: 4em;
+    line-height: 3em;
     font-size: 32px;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
   .nav-links li:nth-child(1) {
     transition: all 0.5s ease 0.1s;
