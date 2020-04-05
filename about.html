@@ -1,66 +1,56 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
 
-     <!-- CSS link files -->
-    <link rel="stylesheet" href="./css/grid.css">
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/menu.css">
-    <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Teddy</title>
-  </head>
+   <!-- CSS link files -->
+  <link rel="stylesheet" href="./css/grid.css">
+  <!-- <link rel="stylesheet" href="./css/common.css"> -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/menu.css">
+  <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <title>About</title>
+</head>
 
   <body>
 
-    <!-- Header Section -->
-
+  <!-- Header Section -->
   <header>
 
-    <div class="nav-top">
-      <div>
-        <a href="index.html">
-          <img src="img/logo.png" alt="logo" class="logo" />
-        </a>
-      </div>
+  <nav class="fixed-top">
 
-      <div class="menu-btn">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-      </div>
+    <div class="hamburger">
+      <div class="line"></div>
+    </div>
+    <div class="d-flex">
+      <a class="logo" href="index.html">
+        <img src="img/logo.png" alt="logo" class="logo" />
+      </a>
 
-      <nav class="menu">
-        <div class="menu-branding">
-          <a href="index.html"><div class="portrait"></div></a>
-        </div>
-        <ul class="menu-nav">
-          <li class="nav-item current">
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">About me</a>
-          </li>
-          <li class="nav-item">
-            <a href="resume.html" class="nav-link">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a href="projects.html" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-
+      <ul class="nav-links pt-4">
+        <li><a href="index.html#work">Projects</a></li>
+        <li><a href="#Resume">Resume</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
     </div>
 
+
+    </ul>
+  </nav>
+
+
   </header>
+
+
 
   <div class="header2">
     <div class="title">
@@ -76,11 +66,6 @@
 <section id="about">
   <div class="container">
     <div class="row mt-5">
-      <!-- <div class="col-md-12 mt-5">
-        <h1 class="text-logo-color mt-5">About me</h1>
-        <p class="sub-headline">Self Evaluations</p>
-      </div> -->
-
       <div class="col-md-6 col-lg-6 me">
         <img class="img-fluid d-block" src="img/teddy.jpg" alt="">
       </div>
@@ -105,44 +90,29 @@
     </div>
   </div>
 
-  <div class="container mt-5">
-    <p class="h2-layer-headline">Culture Fit</p>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-3">
-        <p class="h4-section-subtitle">Conscientiousness</p>
-        <img src="https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg" alt="">
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-6 col-lg-6 me">
+        <img class="img-fluid d-block" src="img/self-evaluation.png" alt="">
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-3">
-        <p class="h4-section-subtitle">Openness To Experience</p>
-        <img src="https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg" alt="">
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-3">
-        <p class="h4-section-subtitle">Agreeableness</p>
-        <img src="https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg" alt="">
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-3">
-        <p class="h4-section-subtitle">Neuroticism</p>
-        <img src="https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg" alt="">
+      <div class="col-md-6 col-lg-6">
+        <div>
+          <p class="h2-layer-headline">Learning Style is Logical</p>
+          <p class="h6-text-body mt-3">I like using my brain for logical and mathematical reasoning. I can recognize patterns easily, as well as connections between seemingly meaningless content. This also leads me to classify and group information to help me learn or understand it.</p>
+        </div>
+        <div>
+          <p class="h6-text-body mt-3">I aim to understand the reasons behind the content and skills. Don't just rote learn. Understanding more detail behind the compulsory content helps me memorize and learn the material that I need to know. Explore the link between various systems, and note them down.</p>
+        </div>
+        <div>
+          <p class="h6-text-body mt-3">While I am studying, create and use lists by extracting key points from the material. I may also want to use statistics and other analysis to help myself identify areas may want to concentrate on.</p>
+        </div>
+        <div>
+          <p class="h6-text-body mt-3">Make use of 'systems thinking' to help understand the links between various parts of a system. An important point here is that systems thinking helps me understand the bigger picture. Often the whole is greater than the sum of the parts. For example, I may understand the individual aircraft systems and flight surfaces, but may not have a view of how all those systems support flight in equilibrium. Systems diagrams can help me gain that understanding.</p>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="container mt-5">
-    <p class="h2-layer-headline">Learning Style is Logical</p>
-    <div class="row">
-      <div class="col-md-4">
-        <img src="https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg" alt="">
-
-      </div>
-      <div class="col-md-8 pl-5">
-        <p class="h6-text-body">- I like using my brain for logical and mathematical reasoning. I can recognize patterns easily, as well as connections between seemingly meaningless content. This also leads me to classify and group information to help me learn or understand it.</p>
-        <p class="h6-text-body">- I aim to understand the reasons behind the content and skills. Don't just rote learn. Understanding more detail behind the compulsory content helps me memorize and learn the material that I need to know. Explore the link between various systems, and note them down.</p>
-        <p class="h6-text-body">- While I am studying, create and use lists by extracting key points from the material. I may also want to use statistics and other analysis to help myself identify areas may want to concentrate on.</p>
-        <p class="h6-text-body">- Make use of 'systems thinking' to help understand the links between various parts of a system. An important point here is that systems thinking helps me understand the bigger picture. Often the whole is greater than the sum of the parts. For example, I may understand the individual aircraft systems and flight surfaces, but may not have a view of how all those systems support flight in equilibrium. Systems diagrams can help me gain that understanding.</p>
-      </div>
-
-    </div>
-  </div>
 </section>
 
 <footer id="contact">
@@ -155,15 +125,18 @@
 
 </footer>
 
-
-
-
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <script src="js/main.js"></script>
+   <!-- <script src="js/main.js"></script> -->
    <script src="js/menu.js"></script>
    <script type="text/javascript" src="/js/retina.js"></script>
+
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 
   </body>
 </html>
