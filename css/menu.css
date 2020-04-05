@@ -60,7 +60,7 @@ nav {
   }
 
   .nav-links {
-    /* padding: 5em; */
+    padding: 10em;
     justify-content: center;
     position: fixed;
     background: #17A8A8;
@@ -84,7 +84,7 @@ nav {
     opacity: 1;
   }
   .nav-links li a {
-    line-height: 5em;
+    line-height: 4em;
     font-size: 24px;
   }
   .nav-links li:nth-child(1) {
