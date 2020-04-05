@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
      <!-- CSS link files -->
     <link rel="stylesheet" href="./css/grid.css">
@@ -22,43 +27,27 @@
 
   <header>
 
-    <div class="nav-top">
-      <div>
-        <a href="index.html">
+    <nav class="fixed-top">
+
+      <div class="hamburger">
+        <div class="line"></div>
+      </div>
+      <div class="d-flex">
+        <a class="logo" href="index.html">
           <img src="img/logo.png" alt="logo" class="logo" />
         </a>
+
+        <ul class="nav-links mt-3">
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Resume">Resume</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
       </div>
 
-      <div class="menu-btn">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-      </div>
 
-      <nav class="menu">
-        <div class="menu-branding">
-          <a href="index.html"><div class="portrait"></div></a>
-        </div>
-        <ul class="menu-nav">
-          <li class="nav-item current">
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">About me</a>
-          </li>
-          <li class="nav-item">
-            <a href="resume.html" class="nav-link">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a href="projects.html" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      </ul>
+    </nav>
 
-    </div>
 
   </header>
 
@@ -71,68 +60,6 @@
     </div>
   </div>
 
-  <!-- Projects Section
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!-- <section id="poem">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 mt-5">
-        <h1 class="text-logo-color mt-5">You Are my HERO</h1>
-        <p class="sub-headline">by Teddy</p>
-      </div>
-
-      <div class="col-md-3">
-      </div>
-
-
-      <div class="col-md-6">
-
-        <p class="h6-text-body" style="font-style: italic;">
-          <span style="font-size: 5em;" class=" quote">"</span><br>
-          Nice to meet you brother,<br>
-          You look so tired.<br>
-          I know you have been through things that i can't imagine,<br>
-          Not even you.<br><br>
-
-          You are serving the country,<br>
-          But this time.<br>
-          You have to serve yourself.<br><br>
-
-          Face down brother.<br>
-          Let your tears drop easier.<br>
-          Don't be ashamed.<br>
-          I respect every single drop of your pain.<br>
-          You cry like a HERO.<br><br>
-
-          Face up brother.<br>
-          Open your eyes.<br>
-          Even fill up with fear.<br>
-          You will see the light after the tears rinse your face.<br>
-          I respect every single rinse of your pain.<br>
-          You cry like a HERO.<br><br>
-
-          You never think about what you gained.<br>
-          But you think about life and what you lost.<br>
-          Sometime you think about the future.<br>
-          But most of the time the past consumes your thoughts.<br><br>
-
-          Face forward brother.<br>
-          Don't give up, stand up.<br>
-          You have to walk on the road where you have to talk.<br>
-          About the past that you lost.<br>
-          I respect every single feeling of your pain.<br>
-          You cry like a HERO.<br><br>
-
-          When i see you, i see myself.</p>
-      </div>
-
-      <div class="col-md-3">
-      </div>
-
-    </div>
-
-  </div>
-</section> -->
 
 <!-- <footer id="contact">
   <h2>Thanks !</h2>
@@ -146,9 +73,16 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <script src="js/main.js"></script>
+   <!-- <script src="js/main.js"></script> -->
    <script src="js/menu.js"></script>
    <script type="text/javascript" src="/js/retina.js"></script>
+
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 
   </body>
 </html>
