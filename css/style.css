@@ -48,7 +48,7 @@ body {
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 0px;
-	margin-top: 50px;
+	margin-top: 24px;
 }
 
 .text-logo-color {
@@ -253,6 +253,10 @@ font-size: 40px;
 }
 /* ---------------------------- end --------------------------- */
 
+.front-content {
+  height: 50vh;
+}
+
 footer{
   padding-top: 3em;
   padding-bottom: 3em;
@@ -278,7 +282,7 @@ footer{
   .title p {
   	font-size: 16px;
   	letter-spacing: 5px;
-  	margin-top: 50px;
+  	margin-top: 24px;
   }
 
   .sub-headline{
