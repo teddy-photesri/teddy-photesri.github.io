@@ -48,6 +48,7 @@ nav {
   }
   nav {
     position: relative;
+    /* background-color: white; */
   }
 
   .hamburger {

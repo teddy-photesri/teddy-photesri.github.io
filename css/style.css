@@ -4,6 +4,30 @@ body {
 .border{
   border: 1px solid black;
 }
+.bg-itone{
+  background-color: #C2DEFF !important;
+}
+.bg-todo{
+  background-color: #ABD67A !important;
+}
+.bg-guro{
+  background-color: #FFDD91 !important;
+}
+.bg-kiosk{
+  background-color: #FFB4B0 !important;
+}
+.bg-clandestino {
+  background-color: #FEE2B7 !important;
+}
+.bg-instagram{
+  background-color: #D19AEB !important;
+}
+.bg-zenyai{
+  background-color: #FFEBA9 !important;
+}
+.bg-kleeniq{
+  background-color: #DAEB9B !important;
+}
 
 .title {
 	-webkit-align-self: center;
@@ -121,13 +145,7 @@ font-size: 40px;
   height: 100vh;
   /* border: 1px solid black; */
 }
-#header > .title {
-  transform: translate(0, -20%);
-}
-#poem {
-  background-color: rgba(0, 0, 0, 0.05);
-  padding-bottom: 6em;
-}
+
 .header2 {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -254,8 +272,34 @@ font-size: 40px;
 /* ---------------------------- end --------------------------- */
 
 .front-content {
-  height: 50vh;
+  height: 70vh;
 }
+.front-content img {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/*Start image zoom*/
+/* Learning source https://codepen.io/zpipe07/pen/rVydym*/
+.img-zoom {
+   margin: 0 auto;
+  width: 500px;
+  overflow: hidden;
+  font-size: 0;
+}
+img{
+  transition: transform 0.5s ease-in-out;
+}
+.img-zoom:hover img {
+  transform: scale(1.1);
+}
+/*end of image zoom*/
+
+
 
 footer{
   padding-top: 3em;
