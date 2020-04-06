@@ -1,30 +1,109 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
+  <head>
 
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-   <!-- CSS link files -->
-  <link rel="stylesheet" href="./css/grid.css">
-  <!-- <link rel="stylesheet" href="./css/common.css"> -->
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/menu.css">
-  <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+     <!-- CSS link files -->
+    <link rel="stylesheet" href="./css/grid.css">
+    <!-- <link rel="stylesheet" href="./css/common.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-  <title>Resume</title>
-</head>
+    <title>Resume</title>
+  </head>
 
   <body>
 
-    <!-- Header Section -->
+    <!-- CSS Timeline Lerning source https://codepen.io/freewayspb/pen/xZJLjP -->
+    <style>
 
+    li {
+      list-style: none;
+    }
+
+    /*= timeline css for data in one side =*/
+    .timeline {
+      float: left;
+      width: 100%;
+      /* margin: 40px 5%; */
+      padding-left: 40px;
+      position: relative;
+      border-left: 1.5px solid #212529;
+      box-sizing:
+      border-box;
+    }
+    .timeline:before,
+    .timeline:after {
+      content: "";
+      width: 16px;
+      height: 16px;
+      border: 1.5px solid #212529;
+      position: absolute;
+      left: -8px;
+      border-radius: 50%;
+      background-color: #17A8A8;
+    }
+    .timeline:before {
+      top: -16px;
+    }
+    .timeline:after {
+      bottom: -16px;
+    }
+    .timeline li {
+      /* background-color: rgba(23, 168, 168, 0.3); */
+      border: 1px solid #212529;
+      border-radius: 5px;
+      float: left;
+      margin-top: 20px;
+      padding: 10px;
+      position: relative;
+      width: 100%;
+    }
+    .timeline li:first-child {
+      margin-top: 0;
+    }
+    .timeline li:before {
+      content: "";
+      width: 40px;
+      height: 1px;
+      background-color: #212529;
+      position: absolute;
+      top: 50%;
+      left: -41px;
+    }
+    .timeline li:after {
+      content: "";
+      width: 10px;
+      height: 10px;
+      /* border: 1.5px solid #212529; */
+      border-radius: 50%;
+      background-color: #17A8A8;
+      position: absolute;
+      top: 50%;
+      margin-top: -5px;
+      left: -47px;
+    }
+    .timeline-description p {
+      margin-top: 15px;
+    }
+    .timeline-description p:first-child {
+      margin-top: 0;
+    }
+    /*= ttimeline css for data in one side end =*/
+
+  </style>
+
+
+  <!-- Header Section -->
   <header>
 
     <nav class="fixed-top">
@@ -50,13 +129,6 @@
 
   </header>
 
-  <!-- <div class="header">
-    <div class="title">
-      <h2 class="">Work Experience</h2>
-      <a href="#"><div class="button-resume">Download my Resume</div></a>
-    </div>
-  </div> -->
-
   <div  class="header">
     <div class="title">
       <div class="line"></div>
@@ -64,173 +136,130 @@
     </div>
   </div>
 
-
-<!-- About Section
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<section>
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <button class="accordion h2-layer-headline">Professional Summary</button>
-        <div class="panel">
-          <p class="h6-text-body"><strong>Full-Stack Web Development Coding Certified</strong><br>
-            Creative web developer able to relocate anywhere in the US, dedicated to high-impact front-end design, performance optimization, and innovative web development. Leverage technical, analytical, and problem-solving skills to create dynamic websites and platforms that align with organizational vision, goals, and objectives. Excellent communication skills for effective interaction across all client, team member, and management levels. Recent Graduate with a Master of Arts degree in Web Design.<br><br>
-            <p class="h6-text-body"><strong>CORE COMPETENCIES</strong><br>
-            Full Stack Development | Front-End Development | UX & UI Design | Web Development | Requirements Gathering | Database Management | Automation | Hosting & Maintenance | Multimedia Design<br>
 
+    <div class="row bg-main">
+      <div class="col-md-5 p-5">
+         <p class="h2-layer-headline">Master Degree of Arts in Web Design. <br><br>Full-Stack Web Development Coding Certified</p>
 
-        </div>
       </div>
 
-      <div class="col-md-12">
-        <button class="accordion h2-layer-headline">Experience</button>
-        <div class="panel">
-          <p class="h6-text-body"><strong>Manufacturing Technician</strong><br>
-            <strong>Company Name:</strong> Intel Corporation<br>
-            <strong>Dates Employed:</strong> Aug 2019 – Jan 2020<br>
-            <strong>Location:</strong> Hillsboro, OR<br><br>
-            <strong>Responsibility</strong><br>
-            • Responsible for technical and maintenance work in support of engineering activities in the manufacturing environment as they align to factory priorities.<br>
-            • Operate, maintain, and repair specialized processing equipment inside and outside a clean room environment to keep output high without compromising safety or quality.<br>
-            • Conduct engineering tests and detailed experimental testing to collect data or assist in process development.<br>
-            • Perform operational tasks, preventative maintenance and/or assist in troubleshooting to determine problems in equipment used in the manufacturing process.<br><br>
+      <div class="col-md-7 h6-text-body p-5">
+        <p>Creative web developer able to relocate anywhere in the US, dedicated to high-impact front-end design, performance optimization, and innovative web development. </p>
 
-            <strong>UX/UI Designer, Web Designer Intern</strong> <br>
-            <strong>Company Name:</strong> Young and Hungry creative<br>
-            <strong>Dates Employed:</strong> Sep 2018 – Dec 2018<br>
-            <strong>Location:</strong> San Francisco Bay Area<br><br>
-            <strong>Responsibility</strong><br>
-            • Plan and implement new designs<br>
-            • Optimize existing user interface designs<br>
-            • Test for intuitively and experience<br>
-            • Communicate with clients to understand their business goals and objectives<br>
-            • Develop technical and business requirements and always strive to deliver intuitive and user-centered solutions<br>
-            • Combine creativity with an awareness of the design elements<br>
-            • Create prototypes for new product ideas<br>
-            • Test new ideas before implementing<br>
-            • Conduct ongoing user research<br><br>
+        <p>Leverage technical, analytical, and problem-solving skills to create dynamic websites and platforms that align with organizational vision, goals, and objectives. Excellent communication skills for effective interaction across all client, team member, and management levels. Recent Graduate with a Master of Arts degree in Web Design.</p>
 
-            <strong>Product Marketing Specialist</strong><br>
-            <strong>Company Name:</strong> TED Health Revolution<br>
-            <strong>Dates Employed:</strong> Jan 2016 – Jul 2019<br>
-            <strong>Location:</strong> San Francisco Bay Area<br><br>
-            <strong>Responsibility</strong><br>
-            • Conducting market research, plan and take part in the launch of new products and involve several different departments in such launches the new product line on the Amazon channel<br>
-            • Develops products by identifying potential products listing<br>
-            • Develop comprehensive marketing plans for sales and marketing teams<br>
-            • Generating product requirements<br>
-            • Determining specifications, production timetables, pricing, and time-integrated plans for product introduction<br>
-            • Developing marketing strategies for getting traffic<br>
-            • Work closely with product development team to determine the most profitable course for each existing and new product<br>
-            • Lead the marketing team to generate strong momentum ahead of new product launches on the Amazon channel.<br>
-            • Review inventory levels and ensure product availability<br>
-            • Research competitor offerings and react when appropriate<br>
-            • Propose and keep within a budget<br>
-            • Create product content such as case studies, videos, website copy, and blog posts<br>
-            • Speak and present about products to both external and internal audiences<br>
-            • Establish timescales for the development of new products with product management, engineering or manufacturing departments<br>
-            • Use market research data to determine product packaging and pricing<br>
-            • Taking care of the product customer satisfaction<br><br>
 
-            <strong>Light Wheel Mechanic</strong><br>
-            <strong>Company Name:</strong> US Army<br>
-            <strong>Dates Employed:</strong> Oct 2011 – Feb 2015<br>
-            <strong>Location:</strong> Ft Carson Colorado<br><br>
-            <strong>Responsibility</strong><br>
-            • Maintained vehicles, associated trailers to include; use of applicable references, inspecting, servicing, maintaining, repairing, replacement, adjusting and testing of vehicles.<br>
-            • Performed field and sustainment level maintenance and recovery operations during deployment to Afghanistan.<br>
-            • Completed corrective maintenance on diesel engines, including power trains, and chassis components, adjusted operating mechanisms such as governors, and operated wreckers.<br>
-            • Responsible for the cleanliness, order and accountability of the vehicle bay.<br>
-            • Contributed to positive team dynamics while serving the U.S. Army.<br>
-          </p>
-        </div>
       </div>
-
-
-      <div class="col-md-12">
-        <button class="accordion h2-layer-headline">Education & Training</button>
-        <div class="panel">
-          <p class="h6-text-body">
-            <strong>PDX Code Guild</strong><br>
-            Degree Name: Bootcamp certification<br>
-            Field Of Study: Full Stack Web Development<br>
-            Dates attended: 2019 – 2020<br><br>
-
-            <strong>Academy of Art University</strong><br>
-            Degree Name: Master of Arts - MA<br>
-            Field Of Study: Web Design and New Media<br>
-            Dates attended: 2017 – 2019<br><br>
-
-            <strong>California State University-East Bay</strong><br>
-            Degree Name: Master’s Degree (Not complete)<br>
-            Field Of Study: Computer Science<br>
-            Dates attended: 2016 – 2017 <br><br>
-
-            <strong>Berkeley City College</strong><br>
-            Field Of Study: Computer Information Technology<br>
-            Dates attended: 2016 – 2016<br><br>
-
-            <strong>Wheel Vehicle Recovery Specialist, U.S. Army, Camp Ripley, MN</strong><br>
-            Degree Name: Certification<br>
-            Field Of Study: Wheel Vehicle Recovery Specialist<br>
-            Dates attended: 2012 – 2012<br><br>
-
-            <strong>Wheeled Vehicle Mechanic, Ordnance School, U.S. Army, Fort Lee, VA</strong><br>
-            Degree Name: Certificate<br>
-            Field Of Study: Wheeled Vehicle Mechanic<br>
-            Dates attended: 2012 – 2012<br><br>
-
-            <strong>King Monkut's University of Technology Thonburi</strong><br>
-            Degree Name: Bachelor’s Degree<br>
-            Field Of Study: Civil Engineering<br>
-            Dates attended: 1997 – 2000<br><br>
-
-          </p>
-
-        </div>
-      </div>
-
-
-
-      <div class="col-md-12">
-        <button class="accordion h2-layer-headline">Awards</button>
-        <div class="panel">
-          <p class="h6-text-body">
-            • Afghanistan Campaign Medal<br>
-            • Army Commendation Medal<br>
-            • Army Good Conduct Medal <br>
-            • National Defense Service Medal<br>
-            • Global War on Terrorism Service Medal <br>
-            • Army Service Ribbon<br>
-            • Overseas Service Ribbon <br>
-            • NATO Medal<br>
-            • Combat Action Badge<br>
-          </p>
-
-        </div>
-      </div>
-
-      <div class="col-md-12">
-        <button class="accordion h2-layer-headline">Volunteer</button>
-        <div class="panel">
-          <p class="h6-text-body">
-            <strong>Dhammakaya Meditation center , Silicon Valley</strong><br>
-            Dates volunteered: Sep 2015 – Aug 2019<br>
-            Social Services<br><br>
-
-            <strong>Meditation for Wounded Warrior</strong><br>
-            Dates volunteered: 2016 – 2017<br>
-            Social Services<br>
-          </p>
-
-        </div>
-      </div>
-
-
 
     </div>
   </div>
-</section>
+
+
+  <!-- Timeline Lerning source https://codepen.io/freewayspb/pen/xZJLjP -->
+  <div class="container mt-7">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+
+  	    <!-- <h2>Timeline Data in one side</h2> -->
+      	<ul class="timeline">
+
+          <li class="bg-main">
+            <div class="timeline-description text-center">
+              <a class="font-weight-bold text-decoration-none text-dark" href="asset/PhotesriTeddyResume.pdf">CLICK TO DOWNLOAD MY RESUME</a>
+            </div>
+          </li>
+
+        	<li>
+            <div class="timeline-description">
+              <p class="h3-section-headline text-logo-color">2019-2020</p>
+              <p class="font-weight-bold">Certification of Full-Stack Web Development (Education) </p>
+              <p h6-text-body>PDX Code Guild – Portland, OR</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-description">
+              <p class="h3-section-headline text-logo-color">2019-2020</p>
+              <p class="font-weight-bold">Manufacturing Technician (Work) </p>
+              <p h6-text-body>Intel Corporation  –  Hillsboro, OR</p>
+              <p h6-text-body>– Supported manufacturing environment, conducted engineering tasks, and executed technical and preventive maintenance activities in alignment with factory goals, objectives, and priorities.</p>
+              <p h6-text-body>– Maintained and operated specialized cleanroom environment processing equipment; conducted equipment repairs according to defined procedures to ensure safety and quality compliance.</p>
+              <p h6-text-body>– Conducted engineering and detailed experimental testing to collect data and assist in process development.</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-description">
+              <p class="h3-section-headline text-logo-color">2018-2018</p>
+              <p class="font-weight-bold">UI/UX Designer – Web Designer (Internship) </p>
+              <p h6-text-body>Young & Hungry Creative  –  San Francisco, CA</p>
+              <p h6-text-body>– Gathered client requirements to understand business goals and objectives; planned, developed, and implemented innovative user-centered web design solutions.</p>
+              <p h6-text-body>– Optimized existent user interface designs and implemented web site performance, functionality, and navigation improvements based on user data and research results.</p>
+              <p h6-text-body>– Developed product prototypes and tested design features and feasibility in development environment before production push.</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-description">
+              <p class="h3-section-headline text-logo-color">2017-2019</p>
+              <p class="font-weight-bold">Master Degree of Arts in Web Design & New Media (Education) </p>
+              <p h6-text-body>Academy of Art University – San Francisco, CA </p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-description">
+              <p class="h3-section-headline text-logo-color">2015-2018</p>
+              <p class="font-weight-bold">Product Marketing (Work) </p>
+              <p h6-text-body>Ted Health Revolution – Daly City, CA</p>
+              <p h6-text-body>– Led marketing team to generate strong Amazon channel product launch momentum; conducted market research, created product content, including case studies, videos, website, and blog posts.</p>
+              <p h6-text-body>– Identified potential product listings and developed comprehensive sales and marketing team plans; determined product specifications, production timetables, pricing strategies, and time-integrated product introduction plans.</p>
+              <p h6-text-body>– Developed traffic-attracting strategies and worked in tandem with product development teams to determine profitable new product launch procedures; established engineering and manufacturing product timescales.</p>
+              <p h6-text-body>– Researched competitor offerings and conveyed findings to both external and internal audiences.  </p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-description">
+              <p class="h3-section-headline text-logo-color">2016-2017</p>
+              <p class="font-weight-bold">Credits towards Computer Science Program (Education) </p>
+              <p h6-text-body>California State University - East Bay, Hayward, CA </p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-description">
+              <p class="h3-section-headline text-logo-color">2011-2015</p>
+              <p class="font-weight-bold">Light Wheel Mechanic (Work) </p>
+              <p h6-text-body>U.S. Army – Fort Carson, CO and Various Global Locations</p>
+              <p h6-text-body>– Maintained mission-critical vehicles to include maintenance inspections, repairs, and tests; conducted Afghan field sustainment and recovery operations with zero incident track record.</p>
+              <p h6-text-body>– Completed diesel engine corrective maintenance, including power trains and chassis component repairs.</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-description">
+              <p class="h3-section-headline text-logo-color">accomplishment</p>
+              <p class="font-weight-bold">Military Awards</p>
+              <p h6-text-body>– Afghanistan Campaign Medal </p>
+              <p h6-text-body>– Army Commendation Medal </p>
+              <p h6-text-body>– Army Good Conduct Medal </p>
+              <p h6-text-body>– National Defense Service Medal </p>
+              <p h6-text-body>– Global War on Terrorism Service Medal </p>
+              <p h6-text-body>– Army Service Ribbon </p>
+              <p h6-text-body>– Overseas Service Ribbon </p>
+              <p h6-text-body>– NATO Medal </p>
+              <p h6-text-body>– Military Basic Training Honor Graduation</p>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
 
 
 
