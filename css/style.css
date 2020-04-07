@@ -34,7 +34,9 @@ body {
 .bg-kleeniq{
   background-color: #DAEB9B !important;
 }
-
+.container-invision {
+  display: none;
+}
 .title {
 	-webkit-align-self: center;
 	-ms-flex-item-align: center;
@@ -337,7 +339,9 @@ footer{
   .container {
     max-width: 540px;
   }
-
+  .container-invision {
+      display: block;
+    }
 
   .title h1 {
   	font-size: 50px;
@@ -364,6 +368,9 @@ footer{
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+  }
+  .container-bottom{
+    display: none;
   }
   .title h1 {
     font-size: 50px;
