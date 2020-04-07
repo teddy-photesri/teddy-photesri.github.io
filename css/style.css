@@ -212,6 +212,10 @@ font-size: 40px;
 
 }
 
+.width-150 {
+  width: 150px;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -316,6 +320,8 @@ img{
   margin-bottom: 7em;
 }
 
+
+
 footer{
   padding-top: 3em;
   padding-bottom: 3em;
@@ -331,6 +337,8 @@ footer{
   .container {
     max-width: 540px;
   }
+
+
   .title h1 {
   	font-size: 50px;
   }
@@ -388,6 +396,8 @@ footer{
   .container {
     max-width: 1140px;
   }
+
+
   .title h1 {
     font-size: 70px;
   }
