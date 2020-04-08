@@ -160,6 +160,26 @@ font-size: 40px;
   color: #58595b;
   font-family: 'Montserrat', sans-serif;
 }
+
+/* .height-100 {
+  height: 100px;
+} */
+.height-150 {
+  height: 150px;
+}
+.width-125 {
+  width: 125px;
+}
+.width-150 {
+  width: 150px;
+}
+.width-200 {
+  width: 200px;
+}
+
+.width-75 {
+  width: 75px;
+}
 /* start header */
 /* Header Section
 ********************************************************************* */
