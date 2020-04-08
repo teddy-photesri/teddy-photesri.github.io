@@ -8,7 +8,9 @@
 nav {
   height: 8vh;
 }
-
+.fixed-top {
+  background-color: white;
+}
 .nav-links {
   /* z-index: 99; */
   display: flex;

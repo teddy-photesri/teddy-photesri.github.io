@@ -4,6 +4,12 @@ body {
 .border{
   border: 1px solid black;
 }
+.border-white{
+  border: 5px solid white;
+}
+.bg-main {
+  background-color: rgba(23, 168, 168, 0.2);
+}
 .bg-itone{
   background-color: #C2DEFF !important;
 }
@@ -28,7 +34,9 @@ body {
 .bg-kleeniq{
   background-color: #DAEB9B !important;
 }
-
+.container-invision {
+  display: none;
+}
 .title {
 	-webkit-align-self: center;
 	-ms-flex-item-align: center;
@@ -78,6 +86,31 @@ body {
 .text-logo-color {
   color: #17A8A8;
 }
+.text-guro-color{
+  color: #E38505;
+}
+.text-itone-color{
+  color: #027DDE;
+}
+.text-instagram-color{
+  color: #B02779;
+}
+.text-kiosk-color{
+  color: #D34758;
+}
+.text-zenyai-color{
+  color: #D59B28;
+}
+.text-clandestino-color {
+  color: #EDDD27;
+}
+.text-kleeniq-color{
+  color: #366104;
+}
+.text-logo-color {
+  color: #17A8A8;
+}
+
 .sub-headline{
   color: #212529;
 	font-size: 14px;
@@ -128,7 +161,6 @@ font-size: 40px;
   font-family: 'Montserrat', sans-serif;
 }
 /* start header */
-
 /* Header Section
 ********************************************************************* */
 
@@ -142,7 +174,7 @@ font-size: 40px;
 	-ms-flex-pack: center;
 	justify-content: center;
   width: 100%;
-  height: 80vh;
+  height: 75vh;
   /* border: 1px solid black; */
 }
 
@@ -167,13 +199,11 @@ font-size: 40px;
   text-align: center;
   position: relative;
   display: inline-block;
-  border: 1px #17A8A8 solid;
+  border: 2px #212529 solid;
   /*background-color: #17A8A8;*/
-  color: #17A8A8;
+  color: #212529;
   font-size: 16px;
   font-weight: 400;
-  height: 35px;
-  width: 142px;
   padding: 6px 20px 5px 20px;
   cursor: pointer;
  /* box-shadow: 0 0 10px #ddd;*/
@@ -205,6 +235,10 @@ font-size: 40px;
   height: 30vh;
   background: #333333;
 
+}
+
+.width-150 {
+  width: 150px;
 }
 
 .img-fluid {
@@ -311,6 +345,8 @@ img{
   margin-bottom: 7em;
 }
 
+
+
 footer{
   padding-top: 3em;
   padding-bottom: 3em;
@@ -326,6 +362,10 @@ footer{
   .container {
     max-width: 540px;
   }
+  .container-invision {
+      display: block;
+    }
+
   .title h1 {
   	font-size: 50px;
   }
@@ -351,6 +391,9 @@ footer{
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+  }
+  .container-bottom{
+    display: none;
   }
   .title h1 {
     font-size: 50px;
@@ -383,6 +426,8 @@ footer{
   .container {
     max-width: 1140px;
   }
+
+
   .title h1 {
     font-size: 70px;
   }
