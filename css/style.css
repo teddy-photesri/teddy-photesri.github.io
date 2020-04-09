@@ -32,7 +32,7 @@ body {
   background-color: #FFEBA9 !important;
 }
 .bg-kleeniq{
-  background-color: #DAEB9B !important;
+  background-color: #D9ECD8 !important;
 }
 .container-invision {
   display: none;
@@ -429,7 +429,12 @@ img{
 }
 
 
-
+.p-100{
+  padding: 100px;
+}
+.p-200{
+  padding: 200px;
+}
 
 footer{
   padding-top: 3em;
