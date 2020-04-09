@@ -23,7 +23,7 @@ body {
   background-color: #FFB4B0 !important;
 }
 .bg-clandestino {
-  background-color: #FEE2B7 !important;
+  background-color: #F3E889 !important;
 }
 .bg-instagram{
   background-color: #D19AEB !important;
@@ -184,6 +184,12 @@ font-size: 40px;
 }
 .width-300 {
   width: 300px;
+}
+.width-400 {
+  width: 400px;
+}
+.width-500 {
+  width: 500px;
 }
 
 
