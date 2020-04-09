@@ -14,7 +14,7 @@ body {
   background-color: #C2DEFF !important;
 }
 .bg-brand{
-  background-color: #AFD4D6 !important;
+  background-color: #D5E7E7 !important;
 }
 .bg-guro{
   background-color: #FFDD91 !important;
@@ -276,9 +276,6 @@ font-size: 40px;
 
 }
 
-.width-150 {
-  width: 150px;
-}
 
 .img-fluid {
   max-width: 100%;
@@ -407,6 +404,14 @@ img{
 .mt-8{
   margin-top: 8em;
 }
+.mt-9{
+  margin-top: 9em;
+}
+.mt-100{
+  margin-top: 100px;
+}
+
+
 .mb-6{
   margin-bottom: 6em;;
 }
@@ -416,6 +421,10 @@ img{
 .mb-8{
   margin-bottom: 8em;
 }
+.mb-100{
+  margin-top: 100px;
+}
+
 
 
 
