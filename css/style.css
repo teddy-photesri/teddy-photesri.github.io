@@ -13,8 +13,8 @@ body {
 .bg-itone{
   background-color: #C2DEFF !important;
 }
-.bg-todo{
-  background-color: #ABD67A !important;
+.bg-teddy{
+  background-color: #AFD4D6 !important;
 }
 .bg-guro{
   background-color: #FFDD91 !important;
@@ -107,7 +107,7 @@ body {
 .text-kleeniq-color{
   color: #366104;
 }
-.text-logo-color {
+.text-teddy-color {
   color: #17A8A8;
 }
 
