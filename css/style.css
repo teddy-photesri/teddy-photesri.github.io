@@ -34,6 +34,9 @@ body {
 .bg-kleeniq{
   background-color: #D9ECD8 !important;
 }
+.bg-btn {
+  color: #17A8A8;
+}
 .container-invision {
   display: none;
 }
